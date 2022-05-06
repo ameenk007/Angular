@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "dist/dlithe2-ang-firebase",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
